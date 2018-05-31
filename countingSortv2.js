@@ -1,5 +1,5 @@
 /**
- * https://www.hackerrank.com/challenges/countingsort1/problem
+ * https://www.hackerrank.com/challenges/countingsort2/problem
  */
 
 'use strict';
@@ -28,9 +28,9 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-function countingSort(arr) {
-    const ArrayConstraint = 100
-    let arrayPointers = Array.apply(null, Array(ArrayConstraint)).map(Number.prototype.valueOf,0)
+function countingSortv1(arr) {
+    const ArraySize = 100
+    let arrayPointers = Array.apply(null, Array(ArraySize)).map(Number.prototype.valueOf, 0)
 
     arrayPointers.forEach((value, index) => {
         arr.forEach(item => {
@@ -40,6 +40,19 @@ function countingSort(arr) {
         })
     })
     return arrayPointers
+}
+
+function countingSort(arr) {
+    let sortedArr = countingSortv1(arr)
+    let results = []
+    sortedArr.forEach((value, index) => {
+        if (value > 0) {
+            for(let i=0; i < value; i++) {
+               results.push(index)
+            }
+        }
+    })
+    return results
 }
 
 function main() {
