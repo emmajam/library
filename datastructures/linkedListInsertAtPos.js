@@ -18,7 +18,7 @@ function insertNodeAtPosition(head, data, position) {
   }
   
   let currentNode = head;
-  for(let i=0; i<position-1; i++) {
+  for(let i = 0; i < position - 1; i++) {
       currentNode = currentNode.next;   
   }
 
