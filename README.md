@@ -1,6 +1,6 @@
-### Solutions to (mostly) hackerrank challenges
+### Emjams Challenges Library
 
-### Also personal collection of solutions
+Solutions to (mostly) hackerrank challenges. Also personal collection of solutions!
 
 
 ### FAQ
