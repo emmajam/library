@@ -2,7 +2,7 @@
 
 - Solutions to (mostly) hackerrank challenges. 
 - Also personal collection of solutions!
-- Javascript collection of datastructures and algoirthms.
+- Collection of datastructures and algoirthms - by myself + others (credit is given to other authors)
 
 
 ### FAQ
