@@ -1,6 +1,7 @@
-### Emjams Challenges Library
+### Emjams Library
 
-Solutions to (mostly) hackerrank challenges. Also personal collection of solutions!
+- My solutions to (mostly hackerrank) challenges
+- Collection of datastructures and algorithms - by myself + others (credit is given to other authors)
 
 
 ### FAQ
@@ -11,4 +12,4 @@ Solutions to (mostly) hackerrank challenges. Also personal collection of solutio
 
 #### What language are you solving them in?
 
-- Node.js
+- Javascript (mostly Node.js)
